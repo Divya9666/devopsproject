@@ -1,0 +1,15 @@
+
+# This is the values file for the ascend-next-ui Helm chart.
+name: ascend-next-ui
+namespace: ascend
+replicaCount: 2
+
+image:
+  repository: ascendcalendarapi-hjguhsh6aphzc9bq.azurecr.io/ascend-next-ui-sso
+  tag: "108"
+  pullSecret: ascend-acr-secret
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
