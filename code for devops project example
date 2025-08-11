@@ -6,7 +6,7 @@ replicaCount: 2
 
 image:
   repository: ascendcalendarapi-hjguhsh6aphzc9bq.azurecr.io/ascend-next-ui-sso
-  tag: "108"
+  tag: "110"
   pullSecret: ascend-acr-secret
 
 service:
